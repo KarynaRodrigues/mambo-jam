@@ -1,0 +1,30 @@
+---
+import Estrutura from "../layouts/Estrutura.astro"
+import Container from "../components/Container.astro"
+import Cards from "../components/Cards.astro"
+import Card from "../components/Card.astro"
+// font matter
+---
+
+<Estrutura title="Minha esposa">
+	<Container>
+		<h1>Cuidado com o gagooo!</h1>
+		<Cards>
+			<Card casa="casa de cogumelo" ano="2022" valor="40.000"/>
+			<Card casa="casa de palha" ano="2022" valor="5.000"/>
+			<Card casa="casa de tijolo" ano="2022" valor="120.000"/>
+			<Card casa="casa de argila" ano="2022" valor="90.000"/>
+			<Card casa="casa de madeira" ano="2022" valor="50.000"/>
+			<Card casa="casa de palito" ano="2022" valor="15.000"/>
+			<Card casa="casa de doce" ano="2022" valor="150.000"/>
+		</Cards>
+	</Container>
+</Estrutura>
+
+<style is:global>
+	h1 {
+		font-size: 2.8rem;
+	}
+</style>
+
+
